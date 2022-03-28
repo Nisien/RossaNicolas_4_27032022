@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,127 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+footer ul
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+footer li a
+{
+    color: #FFFFFF !important;
+}
+
+footer li a:hover
+{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+footer .col-sm-4
+{
+    width: 100%;
+}
+
+footer h2
+{
+    font-size: 11px;
+}
+
+footer h3
+{
+    color: #FFFFFF !important;
+    font-size: 13px;
+}
+
+@media (max-width: 500px) {
+    footer ul
+    {
+        flex-direction: column;
+        margin-right: unset;
+    }
+
+    footer .col-sm-4
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer h3
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.site-navigation a:hover
+{
+    color: #F3976C !important;
+    border-bottom: 1px solid #F3976C;
+}
+
+.color-white
+{
+    color: white!important;
+}
+
+#bloc-7 .row
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-contact
+{
+    text-align: center;
+}
+
+#bloc-6 p
+{
+    font-size: 14px;
+}
+
+#bloc-2-services h2
+{
+    font-size: 22px;
+    max-width: 620px;
+    margin: auto;
+}
+
+#bloc-2-services p
+{
+    font-size: 12px;
+}
+
+#bloc-2-services q
+{
+    font-size: 20px;
+    color: #4d4d4d;
+}
+
+#bloc-2-services q + p
+{
+    font-size: 20px;
+    font-style: italic;
+    color: #999999 !important;
+}
+
+#bloc-3-what-i-do p
+{
+    font-size: 12px;
+}
+
+#bloc-4-portfolio h2
+{
+    font-size: 22px;
+    max-width: 450px;
+    margin: auto;
+}
+
+#bloc-4-portfolio p
+{
+    font-size: 12px;
 }
