@@ -771,7 +771,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a95f3d;
 }
 
 .tc-white {
@@ -779,7 +779,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #AE5429;
     color: #FFFFFF!important;
 }
 
@@ -1068,6 +1068,16 @@ footer h3
     font-size: 13px;
 }
 
+.citation
+{
+    color: #404040 !important;
+}
+
+.accessibility
+{
+    color: #f5ad8a !important;
+}
+
 @media (max-width: 500px) {
     footer ul
     {
@@ -1138,7 +1148,7 @@ footer h3
 {
     font-size: 20px;
     font-style: italic;
-    color: #999999 !important;
+    color: #999999;
 }
 
 #bloc-3-what-i-do p
